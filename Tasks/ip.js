@@ -13,8 +13,10 @@ const parseip = (input) => {
     let index = 0;
     for (const segment of segments) {
       resultArray[index] = parseInt(segment);
-      if (isNaN(resultArray[index])) return;
-      j++;
+      if (isNaN(resultArray[index])){
+        return;
+      }
+      index++;
     }
   }
   return resultArray;
