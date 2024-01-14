@@ -7,7 +7,9 @@ const parseip = (input) => {
   }
   else {
     const segments = input.split('.');
-    if (segments.length != 4) return;
+    if (segments.length != 4){
+      return;
+    }
     j = 0;
     for (const b of segments) {
       resultArray[j] = parseInt(b);
