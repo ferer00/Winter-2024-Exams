@@ -1,6 +1,6 @@
 // Sum all number values in dict
 
-count = (obj) => {
+ const count = (obj) => {
   sum = 0;
   {
   }
