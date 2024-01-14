@@ -7,7 +7,7 @@
     str = str.substring(str.indexOf(startIndex)+startIndex.length);
     if (endIndex) {
 
-      if (i === -1) {
+      if (str.indexOf(endIndex) === -1) {
         return '';
       } else {
         str = str.substring(0, str.indexOf(startIndex)+startIndex.length);
