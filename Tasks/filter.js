@@ -8,7 +8,7 @@ const filterByType = (arr, typeName) => {
        indexesToRemove.unshift(index);
     }
   }
-  for (x of remove) T.splice(x, 1);
+  for (const index of remove) T.splice(x, 1);
   return T;
 };
 
