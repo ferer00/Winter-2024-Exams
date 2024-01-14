@@ -1,6 +1,6 @@
 // Return an array without duplicates
 
-duplicate = (value, N) => {
+const distinct  = (value, N) => {
   if (N <= 0) return [];
   else {
     res = [];
@@ -11,4 +11,4 @@ duplicate = (value, N) => {
   }
 };
 
-module.exports = duplicate;
+module.exports = distinct ;
