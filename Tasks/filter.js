@@ -1,6 +1,6 @@
 // Filter array by type name
 
-const Filter = (arr, typeName) => {
+const filterByType = (arr, typeName) => {
   remove = [];
   for (C of T) {
     x = T.indexOf(C);
