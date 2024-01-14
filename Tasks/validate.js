@@ -12,7 +12,6 @@ const isValidName = (name) => {
       } 
     }
     return true;
-  }
 };
 
 module.exports = isValidName;
