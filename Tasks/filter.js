@@ -11,7 +11,7 @@ const filterByType = (arr, typeName) => {
   for (const index of indexesToRemove) {
      arr.splice(index, 1);
   }
-  return T;
+  return arr;
 };
 
 module.exports = Filter;
