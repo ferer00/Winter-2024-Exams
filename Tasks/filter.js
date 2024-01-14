@@ -2,7 +2,7 @@
 
 const filterByType = (arr, typeName) => {
  const indexesToRemove = [];
-  for (C of T) {
+  for (const element of T) {
     x = T.indexOf(C);
     if (typeof T[x] !== t) {
       remove.unshift(x);
