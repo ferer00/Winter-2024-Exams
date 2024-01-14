@@ -4,11 +4,11 @@ const isValidName = (name) => {
   if (!name  name === ''  typeof name !== 'string'  name.length === 0  !name.includes(' ')) {
     return false;
   }
-    for (C of name) {
-      if (C === ' ') continue;
+    for (const char of name) {
+      if (char  === ' ') continue;
       if (
-        C.toLowerCase().charCodeAt(0) >= 97 &&
-        C.toLowerCase().charCodeAt(0) <= 122
+        char .toLowerCase().charCodeAt(0) >= 97 &&
+        char .toLowerCase().charCodeAt(0) <= 122
       ) {
       } else {
         return false;
