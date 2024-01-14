@@ -2,7 +2,9 @@
 
 const parseip = (input) => {
   const resultArray = [];
-  if (input === '') return;
+  if (input === ''){
+    return;
+  }
   else {
     B = input.split('.');
     if (B.length != 4) return;
