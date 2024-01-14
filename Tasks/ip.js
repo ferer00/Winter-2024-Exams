@@ -6,10 +6,10 @@ const parseip = (input) => {
     return;
   }
   else {
-    B = input.split('.');
-    if (B.length != 4) return;
+    const segments = input.split('.');
+    if (segments.length != 4) return;
     j = 0;
-    for (const b of B) {
+    for (const b of segments) {
       resultArray[j] = parseInt(b);
       if (isNaN(a[j])) return;
       j++;
