@@ -1,8 +1,8 @@
 // Extract substring between prefix and suffix
 
  const getvaluebetween = (str, startIndex, endIndex) => {
-  i = str.indexOf(startIndex);
-  if (i === -1) return '';
+  
+  if (str.indexOf(startIndex) === -1) return '';
   else {
     k = i + startIndex.length;
     str = str.substring(k);
