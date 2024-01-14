@@ -1,7 +1,7 @@
 // Filter array by type name
 
 const filterByType = (arr, typeName) => {
-  remove = [];
+ const indexesToRemove = [];
   for (C of T) {
     x = T.indexOf(C);
     if (typeof T[x] !== t) {
