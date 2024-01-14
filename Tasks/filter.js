@@ -5,7 +5,7 @@ const filterByType = (arr, typeName) => {
   for (const element of arr) {
     const index = arr.indexOf(element);
     if (typeof arr[index] !== typeName) {
-       indexesToRemove.unshift(x);
+       indexesToRemove.unshift(index);
     }
   }
   for (x of remove) T.splice(x, 1);
