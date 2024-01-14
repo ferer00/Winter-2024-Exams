@@ -1,6 +1,6 @@
 // Validate person name
 
-const isValidate = (T) => {
+const isValidName = (T) => {
   if (!T) return false;
   if (T === '') return false;
   if (typeof T !== 'string') return false;
@@ -21,4 +21,4 @@ const isValidate = (T) => {
   }
 };
 
-module.exports = isValidate;
+module.exports = isValidName;
