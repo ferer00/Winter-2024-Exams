@@ -14,4 +14,4 @@ const filterByType = (arr, typeName) => {
   return arr;
 };
 
-module.exports = Filter;
+module.exports = filterByType;
