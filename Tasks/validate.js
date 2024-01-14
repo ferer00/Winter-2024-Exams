@@ -1,12 +1,9 @@
 // Validate person name
 
 const isValidName = (name) => {
-  if (!name) return false;
-  if (name === '') return false;
-  if (typeof name !== 'string') return false;
-  if (name.length === 0) return false;
-  if (!name.includes(' ')) return false;
-  {
+  if (!name  name === ''  typeof name !== 'string'  name.length === 0  !name.includes(' ')) {
+    return false;
+  }
     for (C of name) {
       if (C === ' ') continue;
       if (
