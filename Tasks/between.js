@@ -6,11 +6,11 @@
   else {
     str = str.substring(str.indexOf(startIndex)+startIndex.length);
     if (endIndex) {
-      i = str.indexOf(endIndex);
+
       if (i === -1) {
         return '';
       } else {
-        str = str.substring(0, i);
+        str = str.substring(0, str.indexOf(startIndex)+startIndex.length);
       }
     }
   }
