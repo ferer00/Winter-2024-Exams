@@ -9,7 +9,7 @@ const filterByType = (arr, typeName) => {
     }
   }
   for (const index of indexesToRemove) {
-   T.splice(x, 1);
+     arr.splice(x, 1);
   }
   return T;
 };
