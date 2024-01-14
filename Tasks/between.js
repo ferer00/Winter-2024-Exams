@@ -4,8 +4,7 @@
   
   if (str.indexOf(startIndex) === -1) return '';
   else {
-    k = i + startIndex.length;
-    str = str.substring(k);
+    str = str.substring(str.indexOf(startIndex)+startIndex.length);
     if (endIndex) {
       i = str.indexOf(endIndex);
       if (i === -1) {
